@@ -52,7 +52,7 @@ readit:includes rdf:type owl:ObjectProperty .
 
 ###  http://data.open.ac.uk/ontology/red/Experience_Listener
 red:Experience_Listener rdf:type owl:Class ;
-                        owl:equivalentClass led:ListeningExperience .
+                        rdfs:subClassOf led:ListeningExperience .
 
 
 ###  http://led.kmi.open.ac.uk/term/Experience
